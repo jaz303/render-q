@@ -1,7 +1,7 @@
 {
   "name": "render-q",
   "version": "1.0.0",
-  "description": "## API",
+  "description": "Schedule rendering operations for future batch application with requestAnimationFrame()",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -25,10 +25,8 @@
     "url": "https://github.com/jaz303/render-q/issues"
   },
   "homepage": "https://github.com/jaz303/render-q",
-  "dependencies": {
-    "tape": "^3.0.1"
-  },
   "devDependencies": {
-    "uglify-js": "^2.4.15"
+    "uglify-js": "^2.4.15",
+    "tape": "^3.0.1"
   }
 }
